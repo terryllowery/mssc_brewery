@@ -23,4 +23,9 @@ public class BeerServiceImpl implements BeerService {
                 .id(UUID.randomUUID()) //TODO: This should be coming from the db
                 .upc(beerDto.getUpc()).build();
     }
+
+    @Override
+    public void updateBeer(UUID beerId, BeerDto beerDto) {
+        // TODO implement beerUpdate method
+    }
 }
